@@ -4,3 +4,5 @@
 Some simple satellite calculations in lua for roblox
 
 # License 
+
+See the included license for terms and conditions of use [here](https://github.com/alphabot22/Satellite-Calculations/blob/main/LICENSE).

@@ -43,8 +43,6 @@ end
 -- Eliptical Orbit Calculations
 
 local function Orbit.ConvertToCartesian( e,  a,  i,  O,  w,  t, t0, M0)
-     G = 6.67408 * 10^-11
-     M = 5.972 * 10^24 -- We will calculate the mu of earth
      local mu = G * M
      if(t==t0) then
          t = t0

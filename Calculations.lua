@@ -42,7 +42,7 @@ end
 
 -- Eliptical Orbit Calculations
 
-local function Orbit.ConvertToCartesian( e,  a,  i,  O,  w,  t, t0, M0)
+function Orbit.ConvertToCartesian( e,  a,  i,  O,  w,  t, t0, M0)
      local mu = G * M
      if(t==t0) then
          t = t0
